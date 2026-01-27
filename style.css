@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    min-height: 100vh;
+}
+
+
+
+.sidebar{
+    background-color: rgb(96, 239, 239);
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 20vh minmax(80vh,auto);
+    max-width: 80vw;
+}
+
+.header{
+    background-color: rgb(168, 123, 210);
+}
+.main-content{
+    background-color: rgb(96, 79, 79);
+}
