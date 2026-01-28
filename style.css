@@ -15,7 +15,27 @@ body{
 
 
 .sidebar{
-    background-color: rgb(96, 239, 239);
+    background-color: rgb(74, 160, 236);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+
+}
+
+.sidebar > *{
+    border: 1px solid red;
+    display: flex;
+    padding: 10px; ;
+    flex-direction: column;
+    
+}
+
+.sidebar > div > span{
+    margin-bottom: 10px;
+}
+
+.side-task{
+    
 }
 
 .content{
@@ -25,8 +45,8 @@ body{
 }
 
 .header{
-    background-color: rgb(168, 123, 210);
+    background-color: white;
 }
 .main-content{
-    background-color: rgb(96, 79, 79);
+    background-color: rgb(220, 220, 220);
 }
